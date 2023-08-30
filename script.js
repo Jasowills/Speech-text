@@ -16,7 +16,7 @@ recognition.onresult = (event) => {
     recognition.stop();
     return;
   }
-
+     
   if (isColor(transcript)) {
     document.body.style.backgroundColor = transcript;
   }
